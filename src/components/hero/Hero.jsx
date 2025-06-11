@@ -69,9 +69,12 @@ const Hero = () => {
           <motion.div variants={awardVariants} className="awardList">
             <motion.img variants={awardVariants} src="/award1.png" alt="" />
             <motion.img variants={awardVariants} src="/award2.png" alt="" />
-            <motion.img variants={awardVariants} src="/linkedin.png" alt="" />
+            <a href="https://www.linkedin.com/in/sohaibhassans/">
+              <motion.img variants={awardVariants} src="/linkedin.png" alt="" />
+            </a>
           </motion.div>
         </motion.div>
+
         {/* SCROLL SVG */}
         <motion.a
           animate={{ y: [0, 5], opacity: [0, 1, 0] }}
